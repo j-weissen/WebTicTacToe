@@ -1,7 +1,7 @@
 const express = require('express')
 const helmet = require('helmet')
 const app = express();
-const port = 1337;
+const port = 3000;
 const fs = require('promise-fs')
 
 app.use(helmet({
