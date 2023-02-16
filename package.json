@@ -1,0 +1,18 @@
+{
+  "name": "webttt",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "j-weissen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "promise-fs": "^2.1.1"
+  }
+}

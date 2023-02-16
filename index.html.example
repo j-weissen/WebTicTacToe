@@ -1,0 +1,45 @@
+<table class="webttt">
+    <tr>
+        <td><a href="{server-url}/set/00?redirect={client-url}"><img src="{server-url}/image/00" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/01?redirect={client-url}"><img src="{server-url}/image/01" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/02?redirect={client-url}"><img src="{server-url}/image/02" alt="Please reload"></a></td>
+    </tr>
+    <tr>
+        <td><a href="{server-url}/set/10?redirect={client-url}"><img src="{server-url}/image/10" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/11?redirect={client-url}"><img src="{server-url}/image/11" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/12?redirect={client-url}"><img src="{server-url}/image/12" alt="Please reload"></a></td>
+    </tr>
+    <tr>
+        <td><a href="{server-url}/set/20?redirect={client-url}"><img src="{server-url}/image/20" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/21?redirect={client-url}"><img src="{server-url}/image/21" alt="Please reload"></a></td>
+        <td><a href="{server-url}/set/22?redirect={client-url}"><img src="{server-url}/image/22" alt="Please reload"></a></td>
+    </tr>
+    <tr>
+        <td><a href="{server-url}/reset?redirect={client-url}"><img src="{server-url}/image/reset" alt="Please reload"></a></td>
+        <td colspan="2"><img class="webttt-message" src="{server-url}/image/message"/></td>
+    </tr>
+</table>
+
+
+<style>
+    .webttt {
+        margin: 0px;
+        padding: 0px;
+    }
+    .webttt * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .webttt tr td {
+        border: solid black 2px;
+        border-radius: 5px;
+    }
+    .webttt tr td img {
+        width: 100px;
+        height: 100px;
+    }
+    .webttt tr td .webttt-message {
+        width: 200px;
+        height: 100px;
+    }
+</style>
